@@ -263,4 +263,17 @@ footer h1{
         align-items: center;
         flex-direction: column;
     }
+    .cabecalho table th{
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 0.1rem;
+        transition: 1s;
+    }
+
+    .cabecalho table th:hover{
+        background-color: #ffffff3d;
+        font-size: 29px;
+        transition: 1s;
+        cursor: pointer;
+    }
 }
