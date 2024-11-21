@@ -33,7 +33,7 @@ body{
 
 .cabecalho table{
     width: 65%;
-    border-spacing: 5px;
+    border-spacing: 2px;
 }
 
 .cabecalho table th{
@@ -213,30 +213,22 @@ footer h1{
     transition: 1s;
 }
 
-/* Estiliza toda a barra de rolagem */
 ::-webkit-scrollbar {
     width: 15px;
     height: 12px; 
   }
-  
-  /* Estiliza a área de rolagem */
   ::-webkit-scrollbar-track {
     background: #29486e; 
     border-radius: 10px;
   }
-  
-  /* Estiliza o "polegar" (a parte que se move) */
   ::-webkit-scrollbar-thumb {
     background: #60A5FA; 
     border-radius: 10px; 
   }
-  
-  /* Estiliza o "polegar" ao passar o mouse */
   ::-webkit-scrollbar-thumb:hover {
-    background: #79b5fd; /* Cor do polegar ao passar o mouse */
+    background: #79b5fd; 
   }
-  
-  /* Opcional: estilo dos cantos */
+
   ::-webkit-scrollbar-corner {
     background: #f1f1f1;
   }
@@ -246,9 +238,12 @@ footer h1{
         display: none;
     }
     .cabecalho{
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     .cabecalho table{
+        width: 100%;
+    }
+    .cabecalho table tr{
         width: 100%;
     }
     .quadradoCustom{
