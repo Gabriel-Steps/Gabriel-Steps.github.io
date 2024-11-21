@@ -1,0 +1,36 @@
+.cardRepositorio {
+    width: 400px;
+    position: relative;
+    border: 1px solid #60A5FA;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.tituloCard{
+    color: #f3f4f6;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.cardRepositorio p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cardRepositorio img{
+    height: 30px;
+}
+
+.cardRepositorio a {
+    right: 0;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(60, 60, 253);
+    font-weight: 450;
+    letter-spacing: 0.1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}

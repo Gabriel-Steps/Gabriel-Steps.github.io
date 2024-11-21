@@ -1,0 +1,269 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #1E293B;
+}
+.cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 15px;
+}
+
+.tituloCabecalho{
+    color: #FFFFFF;
+    margin: 5px;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    transition: 1s;
+    font-size: 40px;
+}
+.tituloCabecalho b{
+    color: #60A5FA;
+}
+
+.tituloCabecalho:hover{
+    cursor:default;
+}
+
+
+.cabecalho table{
+    width: 65%;
+    border-spacing: 5px;
+}
+
+.cabecalho table th{
+    padding: 15px;
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+    transition: 1s;
+}
+.cabecalho table th a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.cabecalho table th:hover{
+    background-color: #ffffff3d;
+    font-size: 26px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.containerEntrada{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.containerTexto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column;
+    text-align:justify;
+    padding: 20px;
+}
+
+
+.containerTexto .tituloContainerEntrada{
+    width: 100%;
+    font-size: 40px;
+    letter-spacing: 0.1rem;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+
+.tituloContainerEntrada b{
+    font-weight: 500;
+}
+.tituloContainerEntrada b[categoria="destacado"]{
+    color: #60A5FA;
+}
+
+.containerTexto p{
+    color: #FFFFFF;
+    margin-top: 10px;
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+}
+
+.containerImagem{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadradoCustom{
+    width: 80%;
+    height: 80%;
+    background-color: #60A5FA;
+    border-radius: 50% 40% 20% 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.containerSobreMim, .containerProjeto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerDivisaoSobreMim, .containerProjetos{
+    background-color: #0f141d;
+    width: 95%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #60a5fa42;
+}
+
+.containerProjetos{
+    margin-top: 80px;
+}
+
+.containerDivisaoSobreMim h1, .containerProjetos h1{
+    color: #FFFFFF;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+.containerDivisaoSobreMim hr, .containerProjetos hr{
+    background-color: #60A5FA;
+    height: 1px;
+    margin: 20px 0;
+    border: none;
+    width: 60%;
+    box-shadow: 2px 2px 5px #60A5FA;
+}
+
+.containerDivisaoSobreMim p, .containerProjetos p{
+    color: #ffffffcc;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.containerIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    padding: 25px;
+}
+
+.containerPrincpaisProjetos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 60px;
+    background-color: #080a0c34;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h1{
+    color: #e2e2e2;
+    letter-spacing: 0.1rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btnsFooter{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.btnsFooter a{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #c9c9c928;
+    transition: 1s;
+}
+
+.btnsFooter a:hover{
+    box-shadow: 2px 2px 5px #c9c9c95b;
+    transition: 1s;
+}
+
+/* Estiliza toda a barra de rolagem */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 12px; 
+  }
+  
+  /* Estiliza a área de rolagem */
+  ::-webkit-scrollbar-track {
+    background: #29486e; 
+    border-radius: 10px;
+  }
+  
+  /* Estiliza o "polegar" (a parte que se move) */
+  ::-webkit-scrollbar-thumb {
+    background: #60A5FA; 
+    border-radius: 10px; 
+  }
+  
+  /* Estiliza o "polegar" ao passar o mouse */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #79b5fd; /* Cor do polegar ao passar o mouse */
+  }
+  
+  /* Opcional: estilo dos cantos */
+  ::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+  }
+  
+@media screen and (max-width: 900px){
+    .tituloCabecalho{
+        display: none;
+    }
+    .cabecalho{
+        justify-content: space-around;
+    }
+    .cabecalho table{
+        width: 100%;
+    }
+    .quadradoCustom{
+        display: none;
+    }
+    .containerImagem{
+        display: none;
+    }
+    .containerTexto{
+        width: 100%;
+    }
+    .containerPrincpaisProjetos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
