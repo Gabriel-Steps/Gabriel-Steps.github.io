@@ -38,7 +38,7 @@ body{
 
 .cabecalho table th{
     padding: 15px;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 0.1rem;
     transition: 1s;
 }
@@ -49,7 +49,7 @@ body{
 
 .cabecalho table th:hover{
     background-color: #ffffff3d;
-    font-size: 26px;
+    font-size: 23px;
     transition: 1s;
     cursor: pointer;
 }
@@ -239,6 +239,7 @@ footer h1{
     }
     .cabecalho{
         justify-content: space-evenly;
+        padding: 0;
     }
     .cabecalho table{
         width: 100%;
