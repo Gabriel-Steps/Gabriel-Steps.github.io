@@ -1,5 +1,6 @@
 .cardRepositorio {
     width: 400px;
+    overflow-wrap: break-word;
     position: relative;
     border: 1px solid #60A5FA;
     padding: 15px;
