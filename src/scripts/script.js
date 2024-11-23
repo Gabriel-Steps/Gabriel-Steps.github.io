@@ -13,7 +13,7 @@ const determinarHorario = () => {
 
 const colocarIconesSobreMim = () => {
     const div = document.getElementById("containerIcons");
-    const lista = ["Javascript", "HTML5", "CSS3", "React", "Node.js", "C#"];
+    const lista = ["Javascript", "HTML5", "CSS3", "React", "Node.js", "C#","Typescript", "Python"];
 
     lista.forEach(linguagem => {
         const divLinguagem = document.createElement("div");
