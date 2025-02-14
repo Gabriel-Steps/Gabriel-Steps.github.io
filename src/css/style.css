@@ -209,6 +209,11 @@ footer h1{
     transition: 1s;
 }
 
+.btnsFooter a i{
+    width: 60px;
+    height: 60px;
+}
+
 .btnsFooter a:hover{
     box-shadow: 2px 2px 5px #c9c9c95b;
     transition: 1s;
